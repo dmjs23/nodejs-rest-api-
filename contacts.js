@@ -11,13 +11,14 @@ function listContacts() {
     } else {
       // parse JSON string to JSON object
       const databases = JSON.parse(data);
-
       // print all databases
       databases.forEach((db) => {
         console.log(`${db.id}: ${db.name}: ${db.email}: ${db.phone}`);
       });
-    }
+      }
   });
+    let databases = data;
+    console.log(databases);
 }
 
 function getContactById(contactId) {
