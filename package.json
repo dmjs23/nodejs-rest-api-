@@ -20,5 +20,16 @@
   "homepage": "https://github.com/dmjs23/nodejs-rest-api-#readme",
   "devDependencies": {
     "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "eslint": "7.19.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "5.2.0",
+    "nanoid": "^3.3.4",
+    "yargs": "^17.5.1"
   }
 }
